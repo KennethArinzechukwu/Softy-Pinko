@@ -1,0 +1,75 @@
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+#nav-section{
+    background-image: linear-gradient(to right,rgba(174,96,213,0.5),
+    rgba(138,101,238,0.7)),url(/Image/bgImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.discoverbtn{
+    border-radius: 50px;
+    background-color: #FA6F86;
+}
+.softicons{
+    background-color: #8261EE;
+    border-radius: 100%;
+    width: 5rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-text{
+    font-size: 15px;
+}
+.cardcontainer{
+    border-radius: 20px;
+}
+.nav-link{
+    font-size: 15px
+}
+.softyimg1{
+    width: 13rem;
+}
+.cardcontainer:hover #softicons{
+    background-color: #FA6F86;
+}
+.softyimg2{
+    width: 14rem;
+}
+.workProcessSection{
+    background-image: linear-gradient(to right,rgba(174,96,213,0.5),
+    rgba(138,101,238,0.7)),url(/Image/bgImage.jpg);
+    background-repeat: no-repeat;
+    /* height: 75vh; */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* .workProcess{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.planeimg{
+    width: 1.5rem;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cardPLane{
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+    box-shadow: 9px 9px rgba(222, 206, 255, 0.3);
+    
+}
