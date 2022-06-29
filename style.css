@@ -3,8 +3,8 @@
     font-family: 'Raleway', sans-serif;
 }
 #nav-section{
-    background-image: linear-gradient(to right,rgba(174,96,213,0.5),
-    rgba(138,101,238,0.7)),url(/Image/bgImage.jpg);
+    background-image: linear-gradient(to right,rgba(174,96,213,0.9),
+    rgba(138,101,238,0.9)),url(/Image/bgImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,32 +35,21 @@
     border-radius: 20px;
 }
 .nav-link{
-    font-size: 15px
+    font-size: 13px
 }
-.softyimg1{
-    width: 13rem;
-}
-.cardcontainer:hover #softicons{
+.cardcontainer:hover .softicons{
     background-color: #FA6F86;
-}
-.softyimg2{
-    width: 14rem;
+    transition: .5s;
 }
 .workProcessSection{
-    background-image: linear-gradient(to right,rgba(174,96,213,0.5),
-    rgba(138,101,238,0.7)),url(/Image/bgImage.jpg);
+    background-image: linear-gradient(to right,rgba(174,96,213,0.8),
+    rgba(138,101,238,0.9)),url(/Image/workProcess.jpg);
     background-repeat: no-repeat;
-    /* height: 75vh; */
     width: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-/* .workProcess{
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
 .planeimg{
     width: 1.5rem;
     border-radius: 100%;
@@ -71,5 +60,95 @@
     border-radius: 20px;
     box-shadow: 5px 10px;
     box-shadow: 9px 9px rgba(222, 206, 255, 0.3);
-    
+}
+.testi-icon{
+    border-radius: 100%;
+    width: 4rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.priceTag{
+    width: 90%;
+    background-color: #8261EE;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0;
+    padding: 8px;
+}
+.purchaseNow{
+    border-radius: 50px;
+    background-color: #8261EE;
+    border: 0;
+    margin-bottom: 12px;
+    font-size: 10px;
+}
+.priceCard{
+    border-radius: 17px;
+}
+.priceSection{
+    background-color: #F2F2FE;
+}
+.purchaseP{
+    font-size: 11px;
+}
+.counteerContainer{
+    background-image: linear-gradient(to right, rgba(174,96,213,0.7), 
+    rgba(138, 101, 238, 0.8)), url(/Image/counter.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     padding: 3rem 0 2rem 0;
+
+}
+.counterText{
+    font-size: 22px;
+}
+.blogBtn{
+    border-radius: 20px;
+    background-color: #8261EE;
+}
+.talkToUs{
+    background-color: #F2F2FE;
+}
+.purchaseNow:hover{
+    background-color: #FA6F86;
+    transition: 0.5s;
+}
+.blogBtn:hover{
+    background-color: #FA6F86;
+    transition: 0.5s;
+}
+.digitalCard:hover .gigital{
+    color: #FA6F86;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.sendMsg{
+    width: 45%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.message{
+    border-radius: 20px;
+}
+.footer{
+    background: linear-gradient(to right, rgb(202, 97, 255), 
+    rgba(138, 101, 238, 1));
+    width: 100%;
+    height: 30vh;
+}
+
+@media screen and (max-width: 450px) {
+    .hero{
+        margin-top: 4rem;
+    }
+    .footer{
+        height: 45vh;
+    }
 }

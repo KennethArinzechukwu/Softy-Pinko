@@ -11,13 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="/css/animate.css">
 </head>
 <body>
     <section id="nav-section">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container fix-top bg-light py-2 px-2 mt-2" style="width: 75%; border-radius: 50px;">
                   <a class="navbar-brand" href="#"><img src="/Image/softylogo.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -52,7 +54,7 @@
                 <!-- <img src="/Image/bgImage.jpg" alt=""> -->
             </div>
             <div class="hero text-light text-center">
-                <h3 class="col-mt-3rem">We provide the best strategy to <br> grow up your Brand|</h3>
+                <h3 class="col-mt-3rem">We provide the best strategy to <br> grow up your <span class="typing-effect"></span></h3>
                 <p class="mt-5">Softy Pinko is a professional Bootstrap 4.0 theme designed by <br> Template Mo for your company at absolutely free of charge</p>
                 <button class=" discoverbtn border-0 text-light py-2 px-4 mt-4">DISCOVER MORE</button>
             </div>
@@ -96,51 +98,62 @@
     
     <section class="discussProjectionSection">
         <div class="container">
-        <div class="row g-5 my-4 justify-content-center align-items-center">
-                <div class="col-8 col-lg-4 col-md-12">
+        <div class="row my-4 justify-content-center align-items-center">
+            <div class="col-10 col-lg-6 text-center mb-5">
                 <img class="softyimg1" src="/Image/softyicon4.png" alt="">
-                </div>
-                <div class="col-8 col-lg-6 col-md-12">
-                <h4>Let's discuss about you project</h4>
-                <p class="text-muted">Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
-                </div>
-                <hr style="width: 58%;">
             </div>
+            <div class="col-10 col-lg-6">
+              <h4>Let's discuss about you project</h4>
+              <p class="text-muted">Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
+            </div>
+          </div>
+          <div style="padding: 0.5px 50%; background-color: rgb(241, 241, 241);" >
+
+          </div>
+              <!-- <hr style="width: 100%;" class="lead"> -->
         </div>
     </section>
 
     <section>
-      <div class="container">
-        <div class="row g-5 my-2 justify-content-center align-items-center">
-          <div class="col-8 col-lg-6 col-md-12 mx-auto">
+      <div class="container mb-5">
+      <div class="row g-5 my-2 justify-content-center align-items-center">
+          <div class="col-10 col-lg-6">
                 <h4>We can help you to grow your business</h4>
                 <p class="text-muted">Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
           </div>
 
-          <div class="col-8 col-lg-4 col-md-12 mx-auto">
+          <div class="col-10 col-lg-6 text-center">
             <img class="softyimg2" src="/Image/softyicon5.png" alt="">
-            </div>
-        </div>
+          </div>
+      </div>
       </div>
     </section>
 
-    <section class="workProcessSection my-4">
-      <div class="container" style="padding: 5rem 1rem;">
+<section class="workProcessSection my-4">
+    <div class="container" style="padding: 5rem 1rem;">
       <div class="text-center workProcess text-light px-3">
         <h3>Work Process</h3>
         <p class="my-4">Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex. Donec ante diam.</p>
-        </div>
-        <div class="workProcessImg container">
-          <img src="" alt="">
-        </div>
+      </div>
        
-      <div class="row justify-content-center align-items-center">
+<div class="row justify-content-center align-items-center" style="gap: 10px;">
   <div id="cardPLane" class="card col-lg-2 col-md-4 col-sm-12 me-2 my-2" style="width: 8rem;">
-  <div class="planeimg">
-      <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
+    <div class="planeimg">
+        <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
+    </div>
+    <div class="card-body text-center mt-2 animate__animated animate__bounce" style="font-size: 12px;">
+      <h6 style="font-size: 12px;">Get Ideas</h6> 
+      <p class="text-muted "> Godard pabst prism fam cliche.</p>
+    </div>
   </div>
-  <div class="card-body" style="font-size: 12px;">
-    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted text-center"> Godard pabst prism fam cliche.</p>
+
+  <div id="cardPLane" class="card col-lg-2 col-md-4 col-sm-12  mx-1 my-2" style="width: 8rem;">
+    <div class="planeimg">
+      <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
+    </div>
+  <div class="card-body text-center mt-2" style="font-size: 12px;">
+    <h6 style="font-size: 12px;">Get Ideas </h6>
+    <p class="text-muted"> Godard pabst prism fam cliche.</p>
   </div>
 </div>
 
@@ -148,8 +161,8 @@
   <div class="planeimg">
       <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
   </div>
-  <div class="card-body" style="font-size: 12px;">
-    <h6 style="font-size: 12px;">Get Ideas </h6><p class="text-muted text-center"> Godard pabst prism fam cliche.</p>
+  <div class="card-body text-center mt-2" style="font-size: 12px;">
+    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted"> Godard pabst prism fam cliche.</p>
   </div>
 </div>
 
@@ -157,8 +170,9 @@
   <div class="planeimg">
       <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
   </div>
-  <div class="card-body" style="font-size: 12px;">
-    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted text-center"> Godard pabst prism fam cliche.</p>
+  <div class="card-body text-center mt-2" style="font-size: 12px;">
+    <h6 style="font-size: 12px;">Get Ideas</h6> 
+    <p class="text-muted"> Godard pabst prism fam cliche.</p>
   </div>
 </div>
 
@@ -166,17 +180,8 @@
   <div class="planeimg">
       <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
   </div>
-  <div class="card-body" style="font-size: 12px;">
-    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted text-center"> Godard pabst prism fam cliche.</p>
-  </div>
-</div>
-
-<div id="cardPLane" class="card col-lg-2 col-md-4 col-sm-12  mx-1 my-2" style="width: 8rem;">
-  <div class="planeimg">
-      <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
-  </div>
-  <div class="card-body" style="font-size: 12px;">
-    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted text-center"> Godard pabst prism fam cliche.</p>
+  <div class="card-body text-center mt-2" style="font-size: 12px;">
+    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted"> Godard pabst prism fam cliche.</p>
   </div>
 </div>
 
@@ -184,13 +189,258 @@
   <div class="planeimg">
       <img src="/Image/plane1.png" class="card-img-top mt-3" alt="...">
   </div>
-  <div class="card-body" style="font-size: 12px;">
-    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted text-center"> Godard pabst prism fam cliche.</p>
+  <div class="card-body text-center mt-2" style="font-size: 12px;">
+    <h6 style="font-size: 12px;">Get Ideas</h6> <p class="text-muted"> Godard pabst prism fam cliche.</p>
   </div>
 </div>    
-    </div>
-    </div>
+</div>
+</div>
+</section>
+
+    <section class="my-4">
+      <div class="container" style="padding: 5rem 1rem;">
+        <div class="text-center"> 
+          <h3>What do they say</h3>
+          <p class="text-muted my-4">Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero</p>
+        </div>
+      
+
+
+      <div class=" row justify-content-center align-items-center">
+        <div class="text-center col-lg-4 col-md-6 col-sm-12 p-2">
+                <div class=" mx-auto cardcontainer card shadow-lg mb-5 bg-white border-0" style="width: 16rem;">
+                   <div class="testi-icon mt-3"><img src="/Image/testimonialiconsofty.png" class="card-img-top" alt="..."></div> 
+                    <div class="card-body">
+                      <p class="card-text text-muted" style="font-size: 13px;">Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
+                      <p style="font-size: 14px;">Catherine Soft <br class="gigital">Digital Marketer</p>
+                      
+                    </div>
+                  </div>
+            </div>
+
+            <div class="text-center col-lg-4 col-md-6 col-sm-12 p-2">
+              <div class=" mx-auto cardcontainer card shadow-lg mb-5 bg-white border-0" style="width: 16rem;">
+                 <div class="testi-icon mt-3"><img src="/Image/testimonialiconsofty.png" class="card-img-top" alt="..."></div> 
+                  <div class="card-body">
+                    <p class="card-text text-muted" style="font-size: 13px;">Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                    <p style="font-size: 14px;">Kelvin Wood <br> Digital Marketer</p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="text-center col-lg-4 col-md-6 col-sm-12 p-2">
+            <div class=" mx-auto cardcontainer card shadow-lg mb-5 bg-white border-0" style="width: 16rem;">
+               <div class="testi-icon mt-3"><img src="/Image/testimonialiconsofty.png" class="card-img-top" alt="..."></div> 
+                <div class="card-body">
+                  <p class="card-text text-muted" style="font-size: 13px;">Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+                  <p style="font-size: 14px;">Catherine Soft <br class="gigital">Managing Director</p>
+                </div>
+              </div>
+        </div>
+        </div>
+      </div>
     </section>
- <script src="/JS/bootsrap.min.js"></script> 
+
+    <section class="priceSection">
+      <div class="container" style="padding: 5rem 1rem;">
+        <div class="text-center my-5"> 
+        <h3>Pricing Plans</h3>
+        <p class="text-muted" style="margin-bottom: 5rem;">Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero</p>
+      </div>
+        <div class="row justify-content-center align-items-center g-5">
+
+          <div class="col-md-6 col-9 col-lg-4 text-center">
+            <div class="card priceCard border-0">
+            <div class="card-body">
+            <h5 class="card-title my-3" style="font-size: 16px;">Starter</h5>
+            <div class="priceTag text-center text-light pt-4" style="background-color: #8261EE">
+             <h1 style="font-size: 22px; margin-left: auto; margin-right: auto;"><span style="font-size: 28px;">$</span> 21.50</h1>
+            <p style="font-size: 12px; margin-left: auto; margin-right: auto;">monthly</p>
+            </div>
+            <div class="my-4 mt-5">
+            <p class="purchaseP text-muted">60 GB space</p>
+            <p class="purchaseP text-muted">600 GB transfer</p>
+            <p class="purchaseP text-muted">Pro Design Panel</p>
+            <p class="purchaseP text-muted">15-minute support</p>
+            <p class="purchaseP text-muted">Unlimited Emails</p>
+            <p class="purchaseP text-muted">24/7 Security</p>
+            </div>
+            <a href="#" class="btn text-light purchaseNow">PURCHASE NOW</a>
+           </div>
+           </div>
+        </div>
+
+    <div class="col-lg-4 col-md-6 col-9 text-center">
+      <div class="card priceCard border-0">
+      <div class="card-body">
+      <h5 class="card-title my-3" style="font-size: 16px;">Prenium</h5>
+      <div class="priceTag text-center text-light pt-4" style="background-color: #FA6F86;">
+       <h1 style="font-size: 22px; margin-left: auto; margin-right: auto;"> <span style="font-size: 28px;">$</span> 14.50</h1>
+      <p style="font-size: 12px; margin-left: auto; margin-right: auto;">Monthly</p>
+      </div>
+      <div class="my-4 mt-5">
+      <p class="purchaseP text-muted">120 GB space</p>
+      <p class="purchaseP text-muted">1200 GB transfer</p>
+      <p class="purchaseP text-muted">Pro Design Panel</p>
+      <p class="purchaseP text-muted">15-minute support</p>
+      <p class="purchaseP text-muted">Unlimited Emails</p>
+      <p class="purchaseP text-muted">24/7 Security</p>
+      </div>
+      <a href="#" class="btn text-light purchaseNow">PURCHASE NOW</a>
+     </div>
+     </div>
+  </div>
+
+  <div class="col-md-6 col-9 col-lg-4 text-center">
+    <div class="card priceCard border-0">
+    <div class="card-body">
+    <h5 class="card-title my-3" style="font-size: 16px;">Advanced</h5>
+    <div class="priceTag text-center text-light pt-4" style="background-color: #8261EE">
+     <h1 style="font-size: 22px; margin-left: auto; margin-right: auto;"> <span style="font-size: 28px;">$</span> 42.00</h1>
+    <p style="font-size: 12px; margin-left: auto; margin-right: auto;">Monthly</p>
+    </div>
+    <div class="my-4 mt-5">
+    <p class="purchaseP text-muted">250 GB space</p>
+    <p class="purchaseP text-muted">5000 GB transfer</p>
+    <p class="purchaseP text-muted">Pro Design Panel</p>
+    <p class="purchaseP text-muted">15-minute support</p>
+    <p class="purchaseP text-muted">Unlimited Emails</p>
+    <p class="purchaseP text-muted">24/7 Security</p>
+    </div>
+    <a href="#" class="btn text-light purchaseNow">PURCHASE NOW</a>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+</section>
+
+<section class="counteerContainer">
+  <div class="container counteerContainer text-center">
+  <div class=" row justify-content-center align-items-center text-center g-3">
+  <div class=" col-lg-3 col-md-6 col-sm-12 text-light my-4">
+    <strong style="font-size: 33px;" class="counter">126</strong>
+    <p style="font-size: 17px;">Projects</p>
+  </div>
+
+  <div class=" col-lg-3 col-md-6 col-sm-12 text-light my-4">
+    <strong style="font-size: 33px;" class="counter">63</strong>
+    <p style="font-size: 17px;">Clients</p>
+  </div>
+
+  <div class=" col-lg-3 col-md-6 col-sm-12 text-light my-4">
+    <strong style="font-size: 33px;" class="counter">18</strong>
+    <p style="font-size: 17px;">Award Wins</p>
+  </div>
+
+  <div class=" col-lg-3 col-md-6 col-sm-12 text-light my-4">
+    <strong style="font-size: 33px;" class="counter">27</strong>
+    <p style="font-size: 17px;">Countries</p>
+  </div>
+  </div>
+</div>
+</section>
+
+<section class="blogSection" style="padding: 4rem 1rem;">
+  <div class="container">
+  <div class="text-center my-5"> 
+      <h3>Blog Entries</h3>
+      <p class="text-muted" style="margin-bottom: 5rem;">Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
+  </div>
+
+  <div class="row justify-content-center align-items-center">
+  <div class="col-lg-4 col-md-6 col-9">
+    <div class="card border-0 text-center">
+    <div class="blogImg animate__animated animate__pulse"><img src="/Image/softydownimg1.png" class="card-img-top" alt="..."></div> 
+      <div class="card-body">
+        <h6 class="card-title">Vivamus ac vehicula dui</h6>
+        <p class="card-text text-muted my-4" style="font-size: 12px;">Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.</p>
+        <a href="#" class="blogBtn btn text-light border-0" style="font-size: 13.5px;">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-9">
+    <div class="card border-0 text-center">
+    <div class="blogImg"><img src="/Image/softydownimg2.png" class="card-img-top" alt="..."></div> 
+      <div class="card-body">
+        <h6 class="card-title">Vivamus ac vehicula dui</h6>
+        <p class="card-text text-muted my-4" style="font-size: 12px;">Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.</p>
+        <a href="#" class="blogBtn btn text-light border-0" style="font-size: 13.5px;">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-9">
+    <div class="card border-0 text-center">
+    <div class="blogImg"><img src="/Image/softydownimg3.png" class="card-img-top" alt="..."></div> 
+      <div class="card-body">
+        <h6 class="card-title">Vivamus ac vehicula dui</h6>
+        <p class="card-text text-muted my-4" style="font-size: 12px;">Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.</p>
+        <a href="#" class="blogBtn btn text-light border-0" style="font-size: 13.5px;">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+</section>
+
+<section class="talkToUs" style="padding: 4rem 1rem;">
+  <div class="container my-5">
+  <div class="text-center"> 
+      <h5>Talk to Us</h5>
+      <p class="text-muted" style="margin-bottom: 5rem; font-size: 14px;">IMaecenas pellentesque ante faucibus lectus vulputate sollicitudin. Cras feugiat hendrerit semper.</p>
+  </div>
+  <div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12 text-muted" style="font-size: 12px;">
+  <p>110-220 Quisque diam odio, maximus ac consectetur eu, 10260
+    auctor non lorem
+  </p>
+  </div>
+  <div class="col-lg-8 col-md-6 col-sm-12">
+        <input class="sendMsg border-0" style="font-size: 13px; outline: none;" type="text" placeholder="Full Name">
+        <input class="sendMsg border-0" style="font-size: 13px; outline: none;" type="text" placeholder="Email">
+  </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 text-muted">
+    <p style="font-size: 12px;">You are NOT allowed to re-distribute Softy Pinko template on any template collection websites. Thank you.</p>
+    </div>
+    <div class="col-lg-8 col-md-6 col-sm-12">
+      <div class=" form-floating mt-3">
+        <textarea class="form-control message border-0" cols="20" rows="4" placeholder="Leave a comment here" id="floatingTextarea2" style="width: 92%; outline: none; height: 50%;"></textarea>
+        <label for="floatingTextarea2"></label>
+        <a href="#" class="blogBtn btn text-light border-0 mt-4">Send a Messege</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="footer">
+  <div class="container">
+  <div class="row g-3 ">
+      <!-- ICONS HERE -->
+      <div class="text-center" style="border-radius: 20px; margin-top: 3rem;">
+        <a href="#" style="text-decoration: none;"><i class="ri-facebook-fill bg-light mx-3" style="border-radius: 50px; padding: 9px; color: #8261EE;"></i></a>
+        <a href="#" style="text-decoration: none;"><i class="ri-twitter-fill bg-light  mx-3" style="border-radius: 50px; padding: 9px; color: #8261EE;"></i></a>
+        <a href="#" style="text-decoration: none;"><i class="ri-linkedin-fill bg-light  mx-3" style="border-radius: 50px; padding: 9px; color: #8261EE;"></i></a>
+        <a href="#" style="text-decoration: none;"><i class="ri-wifi-fill bg-light  mx-3" style="border-radius: 50px; padding: 9px; color: #8261EE;"></i></a>
+        <hr class="text-light" style="margin: 2rem 0; ">
+      </div>
+    </div>
+    <P class="text-center text-light" style="font-size: 12px;">COPYRIGHT © 2022 SOFTY PINKO COMPANY - DESIGN: KENSOFT TECHNOLOGIES</P>
+  </div>
+</section>
+<script src="/JS/jquery.js"></script>
+<script src="/JS/jquery.counterup.min.js"></script>
+<script src="/JS/jquery.waypoints.min.js"></script>
+
+<script src="/JS/typed.js"></script>
+
+ <script src="/JS/bootsrap.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+ <script src="/JS/main.js"></script>
 </body>
 </html>
