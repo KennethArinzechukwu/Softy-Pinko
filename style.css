@@ -144,6 +144,24 @@
     height: 30vh;
 }
 
+  /* used to zoom images */
+  .blogImg{
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  .blogImg img{
+    transition: all 0.8s ease;
+  }
+
+  .blogImg:hover img{
+  transform: scale(1.3);
+}
+
+.typing-effect{
+    color: antiquewhite;
+}
+
 @media screen and (max-width: 450px) {
     .hero{
         margin-top: 4rem;
